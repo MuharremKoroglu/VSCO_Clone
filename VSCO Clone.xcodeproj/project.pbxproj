@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32E976A4353038FF359C45C3 /* Pods_VSCO_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A2AB4F6155106F04669D32 /* Pods_VSCO_Clone.framework */; };
+		3B4F04D529713B35008F8E6E /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F04D429713B35008F8E6E /* UserSingleton.swift */; };
 		3B5DF742296AE88E00169461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF741296AE88E00169461 /* AppDelegate.swift */; };
 		3B5DF744296AE88E00169461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF743296AE88E00169461 /* SceneDelegate.swift */; };
-		3B5DF746296AE88E00169461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF745296AE88E00169461 /* ViewController.swift */; };
+		3B5DF746296AE88E00169461 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF745296AE88E00169461 /* LoginScreen.swift */; };
 		3B5DF749296AE88E00169461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DF747296AE88E00169461 /* Main.storyboard */; };
 		3B5DF74B296AE88F00169461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DF74A296AE88F00169461 /* Assets.xcassets */; };
 		3B5DF74E296AE88F00169461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DF74C296AE88F00169461 /* LaunchScreen.storyboard */; };
+		3B6BDB8D296B00A60049D11D /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6BDB8C296B00A60049D11D /* SignUpScreen.swift */; };
+		3B7B619D296BF925002A9C2C /* PasswordResetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B619C296BF925002A9C2C /* PasswordResetScreen.swift */; };
+		3B7B619F296C0B01002A9C2C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B619E296C0B01002A9C2C /* HomeScreen.swift */; };
+		3B7B61A1296C0B1D002A9C2C /* UploadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B61A0296C0B1D002A9C2C /* UploadScreen.swift */; };
+		3B7B61A3296C0B37002A9C2C /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B61A2296C0B37002A9C2C /* AccountScreen.swift */; };
+		3B7B61A5296C0B76002A9C2C /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B61A4296C0B76002A9C2C /* PostCell.swift */; };
+		3B7B61A7296C34AB002A9C2C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B61A6296C34AB002A9C2C /* PostModel.swift */; };
+		3B91F448296D427600326DDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B91F447296D427600326DDD /* GoogleService-Info.plist */; };
+		3BEB299B2972E34400D1D850 /* PostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB299A2972E34400D1D850 /* PostScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B4F04D429713B35008F8E6E /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		3B5DF73E296AE88E00169461 /* VSCO Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VSCO Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5DF741296AE88E00169461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B5DF743296AE88E00169461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B5DF745296AE88E00169461 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B5DF745296AE88E00169461 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		3B5DF748296AE88E00169461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B5DF74A296AE88F00169461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B5DF74D296AE88F00169461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B5DF74F296AE88F00169461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6BDB8C296B00A60049D11D /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		3B7B619C296BF925002A9C2C /* PasswordResetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetScreen.swift; sourceTree = "<group>"; };
+		3B7B619E296C0B01002A9C2C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3B7B61A0296C0B1D002A9C2C /* UploadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadScreen.swift; sourceTree = "<group>"; };
+		3B7B61A2296C0B37002A9C2C /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
+		3B7B61A4296C0B76002A9C2C /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3B7B61A6296C34AB002A9C2C /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		3B91F447296D427600326DDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BEB299A2972E34400D1D850 /* PostScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostScreen.swift; sourceTree = "<group>"; };
+		4E2750F8279F263189E1F393 /* Pods-VSCO Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSCO Clone.debug.xcconfig"; path = "Target Support Files/Pods-VSCO Clone/Pods-VSCO Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		5735B76B9DD8158886330D8F /* Pods-VSCO Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSCO Clone.release.xcconfig"; path = "Target Support Files/Pods-VSCO Clone/Pods-VSCO Clone.release.xcconfig"; sourceTree = "<group>"; };
+		65A2AB4F6155106F04669D32 /* Pods_VSCO_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSCO_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E976A4353038FF359C45C3 /* Pods_VSCO_Clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				3B5DF740296AE88E00169461 /* VSCO Clone */,
 				3B5DF73F296AE88E00169461 /* Products */,
+				E34FC1547B6CCA0FCF7E2983 /* Pods */,
+				B8EA5A322FC9DF86B602FA9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,66 @@
 		3B5DF740296AE88E00169461 /* VSCO Clone */ = {
 			isa = PBXGroup;
 			children = (
-				3B5DF741296AE88E00169461 /* AppDelegate.swift */,
-				3B5DF743296AE88E00169461 /* SceneDelegate.swift */,
-				3B5DF745296AE88E00169461 /* ViewController.swift */,
+				3B91F446296D418600326DDD /* Screens */,
+				3B91F445296D417800326DDD /* Models */,
+				3B91F444296D416400326DDD /* Delegates */,
 				3B5DF747296AE88E00169461 /* Main.storyboard */,
 				3B5DF74A296AE88F00169461 /* Assets.xcassets */,
 				3B5DF74C296AE88F00169461 /* LaunchScreen.storyboard */,
 				3B5DF74F296AE88F00169461 /* Info.plist */,
+				3B91F447296D427600326DDD /* GoogleService-Info.plist */,
 			);
 			path = "VSCO Clone";
+			sourceTree = "<group>";
+		};
+		3B91F444296D416400326DDD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3B5DF741296AE88E00169461 /* AppDelegate.swift */,
+				3B5DF743296AE88E00169461 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		3B91F445296D417800326DDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B7B61A6296C34AB002A9C2C /* PostModel.swift */,
+				3B7B61A4296C0B76002A9C2C /* PostCell.swift */,
+				3B4F04D429713B35008F8E6E /* UserSingleton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B91F446296D418600326DDD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3B5DF745296AE88E00169461 /* LoginScreen.swift */,
+				3B6BDB8C296B00A60049D11D /* SignUpScreen.swift */,
+				3B7B619C296BF925002A9C2C /* PasswordResetScreen.swift */,
+				3B7B619E296C0B01002A9C2C /* HomeScreen.swift */,
+				3B7B61A0296C0B1D002A9C2C /* UploadScreen.swift */,
+				3B7B61A2296C0B37002A9C2C /* AccountScreen.swift */,
+				3BEB299A2972E34400D1D850 /* PostScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B8EA5A322FC9DF86B602FA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A2AB4F6155106F04669D32 /* Pods_VSCO_Clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34FC1547B6CCA0FCF7E2983 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E2750F8279F263189E1F393 /* Pods-VSCO Clone.debug.xcconfig */,
+				5735B76B9DD8158886330D8F /* Pods-VSCO Clone.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B5DF752296AE88F00169461 /* Build configuration list for PBXNativeTarget "VSCO Clone" */;
 			buildPhases = (
+				2426CCA94234830DA530C906 /* [CP] Check Pods Manifest.lock */,
 				3B5DF73A296AE88E00169461 /* Sources */,
 				3B5DF73B296AE88E00169461 /* Frameworks */,
 				3B5DF73C296AE88E00169461 /* Resources */,
+				91AB8BAAE6908F57CFF16FA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B5DF74E296AE88F00169461 /* LaunchScreen.storyboard in Resources */,
+				3B91F448296D427600326DDD /* GoogleService-Info.plist in Resources */,
 				3B5DF74B296AE88F00169461 /* Assets.xcassets in Resources */,
 				3B5DF749296AE88E00169461 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +214,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2426CCA94234830DA530C906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSCO Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91AB8BAAE6908F57CFF16FA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VSCO Clone/Pods-VSCO Clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VSCO Clone/Pods-VSCO Clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VSCO Clone/Pods-VSCO Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B5DF73A296AE88E00169461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B5DF746296AE88E00169461 /* ViewController.swift in Sources */,
+				3B4F04D529713B35008F8E6E /* UserSingleton.swift in Sources */,
+				3B5DF746296AE88E00169461 /* LoginScreen.swift in Sources */,
+				3B7B61A7296C34AB002A9C2C /* PostModel.swift in Sources */,
 				3B5DF742296AE88E00169461 /* AppDelegate.swift in Sources */,
+				3B7B619F296C0B01002A9C2C /* HomeScreen.swift in Sources */,
+				3BEB299B2972E34400D1D850 /* PostScreen.swift in Sources */,
+				3B7B61A3296C0B37002A9C2C /* AccountScreen.swift in Sources */,
 				3B5DF744296AE88E00169461 /* SceneDelegate.swift in Sources */,
+				3B7B61A5296C0B76002A9C2C /* PostCell.swift in Sources */,
+				3B6BDB8D296B00A60049D11D /* SignUpScreen.swift in Sources */,
+				3B7B61A1296C0B1D002A9C2C /* UploadScreen.swift in Sources */,
+				3B7B619D296BF925002A9C2C /* PasswordResetScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 		};
 		3B5DF753296AE88F00169461 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2750F8279F263189E1F393 /* Pods-VSCO Clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +443,7 @@
 		};
 		3B5DF754296AE88F00169461 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5735B76B9DD8158886330D8F /* Pods-VSCO Clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

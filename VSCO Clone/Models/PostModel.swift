@@ -10,7 +10,9 @@ import UIKit
 
 struct PostModel {
     
-    var postImage : UIImage
-    var postComment : String
+    var postImage : [String]
+    var postComment : [String]
     var postOwner : String
+    var timeDifference : Int
+    var postDate : Date
 }

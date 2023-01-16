@@ -1,0 +1,6 @@
+framework module Pods_VSCO_Clone {
+  umbrella header "Pods-VSCO Clone-umbrella.h"
+
+  export *
+  module * { export * }
+}
